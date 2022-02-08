@@ -1,59 +1,31 @@
 # updated-note-taker
 Updated Note-Taker app with errors resolved 
 
-https://updated-note-taker.herokuapp.com/
-
-https://github.com/jj77847/updated-note-taker
-
-# Project Title
-
 # Links
 
-- Deployed Heroku link
+- Deployed Heroku link: https://updated-note-taker.herokuapp.com/
+
+- Github Repo link: https://github.com/jj77847/updated-note-taker 
 
 ## Description
 
-## User Stories
+I've created an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file, I've also deployed the application to Heroku.
+
+## User Story
+
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
 ## Tools/Technologies
 
-## Endpoints
+Installation
+The steps and packages required to install this project are:
 
-### /api
-
-- GET /notes
-  This will return an array of notes
-
-See sample response:
-
-```json
-[
-  {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "id": "26d33b16-7277-45f1-b8ec-8acdd5b6fec7",
-    "title": "Test Title",
-    "text": "Test text"
-  }
-]
 ```
-
-- POST /notes
-  This will create a new note
-
-POST body:
-
-```json
-{
-  "title": "yur title",
-  "text": "your text"
-}
+- clone repository
+- npm init -y
+- npm run start
 ```
-
-- DELETE /notes/:id
-  This will delete a note by ID
-
-## Screenshots
