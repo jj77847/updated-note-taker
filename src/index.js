@@ -15,5 +15,4 @@ app.use(express.json({ extended: true }));
 
 app.use(routes);
 
-app.listen(PORT, () =>
-  console.log(`server running on https://localhost:${PORT}`)
+app.listen(PORT, console.log(`server running on https://localhost:${PORT}`));

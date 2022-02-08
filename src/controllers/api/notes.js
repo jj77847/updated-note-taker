@@ -32,7 +32,9 @@ const createNote = (req, res) => {
     return res.json(newNote);
   }
 
-  return res.status(400).json({ message: `Please read our documentation` });
+  return res
+    .status(400)
+    .json({ message: `Please read the technical documentation` });
 };
 
 const deleteNote = (req, res) => {
